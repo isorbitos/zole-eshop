@@ -1,9 +1,12 @@
 import { Fragment } from "react";
+import ContactUs from "../components/contacts/ContacUs";
+import Location from "../components/contacts/Location";
 
 const ContacPage =()=>{
     return(
         <Fragment>
-            <h1>Susisiekite!!!</h1>
+            <Location />
+            <ContactUs />
         </Fragment>
     )
 };

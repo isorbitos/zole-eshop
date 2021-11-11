@@ -1,4 +1,5 @@
 import ProductListItem from "./ProductListitem";
+import ProductPages from "./ProductPages";
 
 const DUMMY_LIST = [
   {
@@ -56,6 +57,7 @@ const ProductList = () => {
               price={product.price}
             />
           ))}
+          <ProductPages />
         </div>
       </div>
     </div>

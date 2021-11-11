@@ -1,9 +1,14 @@
 import { Fragment } from "react";
+import AboutCompany from "../components/about/AboutCompany";
+import AboutPartners from "../components/about/AboutPartners";
+import AboutTeam from "../components/about/AboutTem";
 
 const AboutPage =()=>{
     return(
         <Fragment>
-            <h1>Apie mus</h1>
+            <AboutCompany />
+            <AboutTeam />
+            <AboutPartners />
         </Fragment>
     )
 };

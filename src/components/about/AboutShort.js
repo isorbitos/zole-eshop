@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const AboutShort = ()=>{
     return(
         <div className="best-features">
@@ -19,7 +21,7 @@ const AboutShort = ()=>{
                   <li>Corporis, omnis doloremque</li>
                   <li>Non cum id reprehenderit</li>
                 </ul>
-                <a href="about.html" className="filled-button">Read More</a>
+                <Link className="filled-button" to="/about">Daugiau...</Link>
               </div>
             </div>
             <div className="col-md-6">
